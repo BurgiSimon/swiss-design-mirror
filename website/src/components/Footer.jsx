@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="col-span-4 md:col-span-4 lg:col-span-3 lg:col-start-10 self-end mt-10 lg:mt-0">
             <p className="measure text-base text-gray-2">
               A showcase for the <span className="font-mono">swiss-design</span>{' '}
-              Claude skill — this site is built by applying it to itself.
+              AI Agent Skill — this site is built by applying it to itself.
             </p>
             <ul className="mt-6 space-y-1 text-caption uppercase tracking-[0.16em] text-gray-2 nums-tabular">
               <li>Inter Variable · 2 weights</li>

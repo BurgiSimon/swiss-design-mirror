@@ -101,6 +101,14 @@
     max-width: var(--measure);
   }
 
+  /* hide the scrollbar on the nav's horizontal section strip (still scrollable) */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   /*
     Grid placement driven by CSS variables so spans can be fully dynamic without
     tripping Tailwind's class scanner. Col.jsx sets --col-sm/-md/-lg to values

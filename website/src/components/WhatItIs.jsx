@@ -16,14 +16,9 @@ export default function WhatItIs() {
       <Col sm="1 / span 4" md="4 / span 5" lg="8 / span 5" className="self-end">
         <p data-reveal className="measure text-base text-gray-1">
           Karl Gerstner called good design a <em>programme</em>: a rule set, not
-          inspiration chased one element at a time. The swiss-design skill helps
-          you build that rule set first — then build on it.
-        </p>
-        <p data-reveal className="measure mt-6 text-base text-gray-1">
-          Tokens, a type scale, an 8pt spacing system, a component library — these
-          are Gerstner’s “programmes” in Gerstner’s exact sense. Set the system up
-          correctly and the individual screens almost design themselves, staying
-          coherent automatically.
+          inspiration chased one element at a time. Set the system up correctly —
+          tokens, a type scale, an 8pt rhythm — and the screens almost design
+          themselves, staying coherent automatically.
         </p>
       </Col>
 

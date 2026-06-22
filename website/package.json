@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "A Swiss-style showcase site for the swiss-design Claude skill — built by applying the skill itself.",
+  "description": "A Swiss-style showcase site for the swiss-design AI Agent Skill — built by applying the skill itself.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

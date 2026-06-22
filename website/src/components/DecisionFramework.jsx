@@ -12,8 +12,7 @@ export default function DecisionFramework() {
           The method is universal. How expressive you make it isn’t.
         </h2>
         <p data-reveal className="measure mt-6 text-base text-gray-1">
-          Pick the row that matches what you’re building, then apply its
-          type-scale ratio and density. This site uses the first row.
+          Pick the row that matches what you’re building. This site uses the first.
         </p>
       </Col>
 

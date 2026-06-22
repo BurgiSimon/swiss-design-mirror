@@ -17,7 +17,10 @@ export default function Section({
     <section
       id={id}
       ref={innerRef}
-      className={'w-full px-6 md:px-8 py-24 md:py-32 lg:py-40 ' + className}
+      className={
+        'w-full px-6 md:px-8 py-24 md:py-32 lg:py-40 scroll-mt-20 md:scroll-mt-24 ' +
+        className
+      }
     >
       <div className="mx-auto w-full max-w-[var(--canvas-max)]">
         {(kicker || index) && (

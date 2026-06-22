@@ -34,6 +34,7 @@ export default function Hero() {
 
   return (
     <header
+      id="top"
       ref={rootRef}
       className="relative w-full px-6 md:px-8 pt-28 pb-24 md:pt-36 md:pb-32 overflow-hidden"
     >
@@ -43,7 +44,7 @@ export default function Hero() {
           <Col sm="1 / span 4" lg="1 / span 12">
             <div className="flex flex-wrap items-baseline justify-between gap-4 border-t-2 border-ink pt-4">
               <span className="text-caption font-medium uppercase tracking-[0.18em]">
-                Claude Skill
+                AI Agent Skill
               </span>
               <span className="text-caption font-medium uppercase tracking-[0.18em] text-gray-1 nums-tabular">
                 Est. 1950s · Zürich / Basel
@@ -75,12 +76,9 @@ export default function Hero() {
             className="mt-12 md:mt-16"
           >
             <p className="measure text-h4 leading-snug font-medium">
-              A skill that designs and builds web UI in the International
-              Typographic Style — and a site built by applying it to itself.
-            </p>
-            <p className="measure mt-6 text-base text-gray-1">
-              Not a look you decorate with. A system: a small set of rules —
-              grid, type scale, spacing, one accent — that generate every screen.
+              An AI agent skill that designs and builds web UI in the
+              International Typographic Style — and a site built by applying it to
+              itself.
             </p>
           </Col>
         </Grid>

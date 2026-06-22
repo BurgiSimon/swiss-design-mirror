@@ -35,7 +35,7 @@ export default function SystemShowcase() {
     <section
       id="system"
       ref={rootRef}
-      className="w-full px-6 md:px-8 py-24 md:py-32 lg:py-40 bg-paper"
+      className="w-full px-6 md:px-8 py-24 md:py-32 lg:py-40 scroll-mt-20 md:scroll-mt-24 bg-paper"
     >
       <div className="mx-auto w-full max-w-[var(--canvas-max)]">
         <Grid className="mb-12 md:mb-16">

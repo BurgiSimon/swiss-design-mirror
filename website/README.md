@@ -1,6 +1,6 @@
 # Swiss Design — skill showcase site
 
-A small React site that **documents the `swiss-design` Claude skill while being
+A small React site that **documents the `swiss-design` AI Agent Skill while being
 built by applying it**. The page you read about (design as a *programme* —
 tokens → grid → type → audit) is the page you're looking at: the showcase
 section renders the skill's actual tokens as live specimens.

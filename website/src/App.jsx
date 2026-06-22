@@ -1,4 +1,5 @@
 import SmoothScroll from './lib/smooth-scroll'
+import Nav from './components/Nav'
 import Hero from './components/Hero'
 import WhatItIs from './components/WhatItIs'
 import SystemShowcase from './components/SystemShowcase'
@@ -18,6 +19,7 @@ export default function App() {
       >
         Skip to content
       </a>
+      <Nav />
       <Hero />
       <main>
         <WhatItIs />

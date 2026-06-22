@@ -18,7 +18,7 @@ export default function Usage() {
           Just ask. The skill loads itself.
         </h2>
         <p data-reveal className="measure mt-6 text-base text-gray-1">
-          It’s a Claude skill — drop it in your skills directory and Claude
+          It’s an AI agent skill — drop it in your skills directory and the agent
           reaches for it whenever a request matches. No setup, no config.
         </p>
 
@@ -40,11 +40,11 @@ export default function Usage() {
       <Col sm="1 / span 4" md="4 / span 5" lg="8 / span 5" className="self-end">
         <ol data-reveal className="space-y-6">
           {[
-            ['Frame the problem', 'Pick the decision-framework row — it sets your ratios and density.'],
-            ['Establish tokens', 'Spacing, type scale, palette, one typeface — before any layout.'],
+            ['Frame the problem', 'Pick the row — it sets your ratios and density.'],
+            ['Establish tokens', 'Spacing, type scale, palette, one typeface.'],
             ['Lay out on the grid', 'Asymmetric, flush-left, deliberate empty columns.'],
-            ['Set type to the scale', '~60ch measure, two weights, tight leading on display.'],
-            ['Audit', 'Run the anti-pattern + WCAG AA checklist before shipping.'],
+            ['Set type to the scale', '~60ch measure, two weights, tight display leading.'],
+            ['Audit', 'Anti-pattern + WCAG AA checklist before shipping.'],
           ].map(([t, d], i) => (
             <li key={t} className="flex gap-4 border-b border-gray-2 pb-5">
               <span className="text-h4 font-bold nums-tabular text-accent">
